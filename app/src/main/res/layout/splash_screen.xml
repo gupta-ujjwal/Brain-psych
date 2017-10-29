@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/AppName"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
         android:fontFamily="@font/trade_winds"
@@ -17,19 +17,22 @@
         android:textColor="#123"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/quote"
         android:layout_width="340dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/almendra_display"
+        android:layout_height="28dp"
+        android:layout_marginTop="396dp"
+        android:fontFamily="sans-serif"
         android:text="TextView"
         android:textColor="#123"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="389dp" />
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

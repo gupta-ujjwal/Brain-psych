@@ -12,19 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var thread = Thread()
-        fun run(){
-            try {
-                sleep(3000)
-            }
-            catch(e:InterruptedException){
-                e.printStackTrace()
-            }
-            finally {
-                var intent = Intent()
-            }
-
-        }
 
     }
 }
